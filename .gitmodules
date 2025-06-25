@@ -1,0 +1,3 @@
+[submodule "3rdparty/openbsw"]
+	path = 3rdparty/openbsw
+	url = https://github.com/vladyslavmarkovaccenture/openbsw.git
