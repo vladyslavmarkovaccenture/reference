@@ -1,0 +1,41 @@
+[global]
+excludes = [
+  "**/3rdparty/*/**",
+  "**/Doxyfile",
+  "**/Makefile",
+  "*.*-format",
+  "*.S",
+  "*.cmm",
+  "*.css",
+  "*.dld",
+  "*.gdb",
+  "*.gif",
+  "*.gitignore",
+  "*.html",
+  "*.ini",
+  "*.josh",
+  "*.json",
+  "*.md",
+  "*.png",
+  "*.puml",
+  "*.py",
+  "*.rb",
+  "*.rst",
+  "*.s",
+  "*.sh",
+  "*.spec",
+  "*.toml",
+  "*.txt",
+  "*.yaml",
+  "*.yml",
+]
+
+[formatter.cpp]
+command = "3rdparty/openbsw/tools/clang-format-wrapper"
+options = [ "--style=file", "-i" ]
+includes = [ "*.c", "*.cc", "*.cpp", "*.h", ".hh", "*.hpp" ]
+
+[formatter.cmake]
+command = "cmake-format"
+options = [ "-i" ]
+includes = [ "**/CMakeLists.txt", "*.cmake" ]

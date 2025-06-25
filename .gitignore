@@ -7,26 +7,33 @@
 *.o
 *.obj
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
 # Compiled Static libraries
 *.lai
 *.la
 *.a
 *.lib
 
-# Executables
-*.exe
-*.out
-*.app
+*.pyc
+.bake/
+.idea/
+.cache/
+.direnv/
+compile_commands.json
+Testing/
+build/
+cmake-build*
+__pycache__/
+venv
+.devcontainer
+.vscode*
+.project
+.envrc
+.DS_Store
+*.egg-info
+.docker_history/
+.sccache/
+doc/doxygenOut
+doc/doc-coverage.info
+doc/DoxygenWarningLog.txt
+.bash_history
+
